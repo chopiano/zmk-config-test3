@@ -1,0 +1,14 @@
+identifier: nrf_poker64
+name: nrf_poker64
+type: mcu
+arch: arm
+toolchain:
+  - zephyr
+  - gnuarmemb
+supported:
+  - adc
+  - usb_device
+  - ble
+  - ieee802154
+  - pwm
+  - watchdog
